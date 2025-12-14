@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".AboutActivity"
+    android:background="@color/about_background">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp">
+
+            <ImageView
+                android:id="@+id/iv_app_logo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/icospkl"
+                android:contentDescription="@string/app_logo_desc"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_developer_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="12dp"
+                app:cardBackgroundColor="@color/about_card_background"
+                app:layout_constraintTop_toBottomOf="@+id/iv_app_logo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_author_name_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/author_name"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/about_text_primary" />
+
+                    <TextView
+                        android:id="@+id/tv_project_role"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_developer_role"
+                        android:textSize="16sp"
+                        android:textColor="@color/about_text_secondary"
+                        android:layout_marginTop="4dp" />
+
+                    <TextView
+                        android:id="@+id/tv_app_version_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name_version_format"
+                        android:textSize="14sp"
+                        android:textColor="@color/about_text_secondary"
+                        android:layout_marginTop="4dp"
+                        tools:text="Towns.IO v1.0.0" />
+
+                    <TextView
+                        android:id="@+id/tv_project_notes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="@string/about_project_notes"
+                        android:textSize="14sp"
+                        android:textColor="@color/about_text_primary" />
+
+                    <TextView
+                        android:id="@+id/tv_about_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="@string/about_text"
+                        android:textSize="14sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/about_text_secondary" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/tv_connect_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connect"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="32dp"
+                android:textColor="@color/about_text_primary"
+                app:layout_constraintTop_toBottomOf="@+id/card_developer_info"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_kofi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/link_kofi"
+                android:paddingVertical="12dp"
+                android:layout_marginTop="16dp"
+                app:icon="@drawable/ico_kofi"
+                app:iconGravity="textStart"
+                app:layout_constraintTop_toBottomOf="@+id/tv_connect_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_github"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/link_github"
+                android:paddingVertical="12dp"
+                android:layout_marginTop="8dp"
+                app:icon="@drawable/ico_git"
+                app:iconGravity="textStart"
+                app:layout_constraintTop_toBottomOf="@+id/btn_kofi"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+☆
+☆ Author: ☆ Alexis J. Benejan ☆
+☆ Language: XML (Vector Drawable)
+☆ Student ID: 843-12-0525
+☆ File Name: rounded_shape.xml
+☆ Date: October 6, 2025
+☆ Description: Defines a simple, solid Black Circle (12x12) shape.
+☆
+-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- The color of this shape is set dynamically in MainActivity.kt -->
+    <solid android:color="#000000"/>
+    <size android:width="12dp" android:height="12dp"/>
+</shape>
+
+<!-- End of rounded_shape.xml -->

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Towns.IO</string>
+    <string name="app_version">1.0.0</string>
+    <string name="author_name">Alexis Benejan | MelodyHSong</string>
+
+    <string name="main_menu_subtitle">Quiz de Banderas, Escudos y Cognomentos de P.R.</string>
+    <string name="mode_flags">Banderas de los Pueblos</string>
+    <string name="mode_shields">Escudos de los Pueblos</string>
+    <string name="mode_cognomentos">Adivina el Cognomento</string>
+    <string name="view_high_scores">Mejores Puntuaciones</string>
+    <string name="action_about">Acerca De</string>
+
+    <string name="question_format">Pregunta %1$d de %2$d</string>
+    <string name="quiz_image_desc">Bandera o escudo del pueblo a adivinar</string>
+    <string name="correct_answer">¡Correcto!</string>
+    <string name="incorrect_answer">¡Incorrecto!</string>
+    <string name="correct_town_is">La ciudad correcta era: %s</string>
+    <string name="app_logo_desc">Logo de la aplicación Towns.IO</string>
+
+    <string name="quiz_results">Resultados del Quiz</string>
+    <string name="score_summary_format">%1$d respuestas, %2$.2f%% correctas</string>
+    <string name="record_label">Récord Máximo:</string>
+    <string name="new_record_broken">¡NUEVO RÉCORD!</string>
+    <string name="top_5_scores">Top 5 Puntajes:</string>
+    <string name="restart_app">Menú Principal</string>
+    <string name="score_list_item_format">%1$d. %2$s - %3$d Correctas (%4$d Intentos)</string>
+
+    <string name="about_version_label">Versión:</string>
+    <string name="about_author_label">Autor:</string>
+    <string name="about_project_notes">Este proyecto fue desarrollado para el curso SICI 4185: Introducción a la Programación de Dispositivos Móviles de la UPR-Ponce.</string>
+
+    <string name="url_kofi">https://ko-fi.com/MelodyHSong</string>
+    <string name="url_github">https://github.com/MelodyHSong</string>
+
+    <string name="link_kofi">Apoyar</string>
+    <string name="link_github">Ver Código</string>
+    <string name="about_title">Información de la Aplicación</string>
+    <string name="about_developer_name">MelodyHSong</string>
+    <string name="about_developer_role">Desarrollador de Software | UPR-Ponce</string>
+    <string name="about_text">Gracias por descargar esta aplicación. ¡Disfruta!</string>
+    <string name="connect">Conectar</string>
+    <string name="about_ko_fi_label">Apoyar al Desarrollador</string>
+    <string name="about_github_label">Código Fuente</string>
+    <string name="app_name_version_format">Towns.IO - 1.0.0a</string>
+    <string name="select_difficulty">Seleccionar Dificultad</string>
+
+    <string name="no_record_found">-- No hay récord establecido para esta dificultad --</string>
+    <string name="no_scores_recorded_difficulty">Aún no hay puntuaciones registradas para la dificultad %s.</string>
+    <string name="score_list_item_format_time">%1$d. %2$s - %3$d/%4$d (%5$s)</string>
+    <string name="record_display_difficulty">Dificultad (%s)</string>
+    <string name="select_difficulty_view">Filtrar por Dificultad</string>
+
+    <string name="new_high_score_title">¡Terminaste el Quiz!</string>
+    <string name="enter_your_name_hint">Ingresa tu nombre o iniciales</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Omitir</string>
+    <string name="default_player_name">Player</string>
+
+    <string name="records_display_mode">Modo de Juego (%s)</string>
+    <string name="select_mode_view">Filtrar por Modo</string>
+
+    <string name="name_flags_short">Banderas</string>
+    <string name="name_shields_short">Escudos</string>
+    <string name="name_slogans_short">Cognomentos</string>
+
+    <string name="error_no_browser">No se pudo abrir el navegador web. Verifique la aplicación de navegación.</string>
+    <string name="previous">Volver</string>
+
+</resources>
